@@ -1,0 +1,30 @@
+/* input {
+    accent-color: auto;
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+  
+  input.custom {
+    accent-color: rebeccapurple;
+  }
+   */
+
+/* You can validate data using the :valid and :invalid pseudo classes  */
+input {
+    border: 2px solid #000;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border-color: red;
+}
+input:valid {
+    border-color: green;
+}
+/* used when you highlight a specific input cell */
+input:focus{
+    background-color: blue;
+}

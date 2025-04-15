@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="boxs">I am a box with opacity</div>
+      </div>
+      
+    <!-- <div class="wrapper">
+        <div class="box px">I am 200px wide</div>
+        <div class="box vw">I am 10vw wide</div>
+        <div class="box em">I am 10em wide</div>
+    </div> -->
+<!-- 
+    em - unit means "my parent's element font-size" if used for font-size (and "my own font-size" when used for anything else. The <li> element inside a <ul> with a class of ems take their sizing from their parent.So each successive level of nesting gets progressively larger, as each has its font-size set to 1.3em - - 1.3 times its parents elements font size.
+
+    rem - unit means "The root element font-size"(rem stands for "root em").The <li> element inside the <ul> with a class of rems takes their sizing from the root element <html>.This means that each successive levell of nesting does not keep getting larger
+
+    However, if you change the <html> element's font-size in the CSS you will see that everything else changes relative to it — both rem- and em-sized text.
+
+-->
+
+    <ul class="ems">
+        <li>One</li>
+        <li>Two</li>
+        <li> Three
+            <ul>
+                <li>Three A</li>
+                <li>Three B
+                    <ul>
+                        <li>Three B 2</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <ul class="rems">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+            <ul>
+                <li>Three A</li>
+                <li>Three B
+                    <ul>
+                        <li>Three B 2</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- 
+    Percentages-  The thing with percentages is that they are always set relative to some other value. For example, if you set an element's font-size as a percentage, it will be a percentage of the font-size of the element's parent. If you use a percentage for a width value, it will be a percentage of the width of the parent.
+    -->
+
+    <div class="box px">I am 200px wide</div>
+    <div class="box percent">I am 40% wide</div>
+    <div class="wrapper">
+        <div class="box px">I am 200px wide</div>
+        <div class="box percent">I am 40% wide</div>
+    </div>
+
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>
+          Three
+          <ul>
+            <li>Three A</li>
+            <li>
+              Three B
+              <ul>
+                <li>Three B 2</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      
+      
+</body>
+</html>
