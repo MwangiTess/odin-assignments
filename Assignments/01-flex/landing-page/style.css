@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #eeeeee;
+    line-height: 1.5;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .......................... Reusable Component ..................................... */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #666;
+    font-weight: 200;
+    font-size: 14px;
+}
+img {
+    max-width: 100%;
+}
+button{
+    background-color: #eee;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+/* .......................... Navbar ..................................... */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 60px;
+}
+.navbar ul{
+    display: flex;
+    padding: 16px;
+    gap: 18px;
+}
+
+
+/* .......................... Main ..................................... */
+.contents {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.input input {
+    padding: 4px 12px;
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input input:focus {
+    border-color: #666;
+    box-shadow: 0 0 5px rgba(102, 102, 102, 0.4);
+}
+
+
+/* .......................... Footer ..................................... */
+.footer{
+    background-color: #eee;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: auto; can be used to push the footer down  */ 
+}
+
+.footer ul{
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+

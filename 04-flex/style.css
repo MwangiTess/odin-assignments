@@ -1,0 +1,81 @@
+.flex-container {
+    display: flex;
+}
+.flex-container div {
+    background-color: bisque;
+    border: 4px solid red;
+    height: 100px;
+    flex: 1;
+    /* When you do flex 1 all the div fit the same width and height, it can take different values like 0.25 */
+}
+
+.container {
+    background-color: midnightblue;
+    border: 4px solid yellowgreen;
+    display: flex;
+}
+.item {
+    background-color: blueviolet;
+    border: 4px solid mediumslateblue;
+    height: 60px;
+    flex: 1;
+    margin: 4px;
+}
+
+.container1 {
+    background-color: midnightblue;
+    border: 4px solid yellowgreen;
+    display: flex;
+    padding: 12px;
+}
+.item1 {
+    background-color: blueviolet;
+    border: 4px solid mediumslateblue;
+    height: 60px;
+    flex: 1;
+    margin: 4px;
+}
+#item2 {
+    display: flex;
+}
+.item3 {
+    background-color: yellowgreen;
+    border: 4px solid mediumslateblue;
+    height: 45px;
+    flex: 1;
+    margin: 4px;
+    align-content: center;
+
+}
+
+.justify{
+    width: 500px;
+    height: 200px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-eve;
+    align-items: center;
+    text-align: center;
+}
+.ite1{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blue;
+}
+.ite2{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blue;
+    flex-grow: 1;
+}
+.ite3{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blue;
+}

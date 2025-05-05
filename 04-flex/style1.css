@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 
+.header {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+} */
+nav{
+    border: 2px solid #eeeeee;
+    margin-bottom: 40px;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 10px;
+    display: inline-block;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 500px;
+    height: 300px;
+    border: 2px dotted rgb(96 139 168);
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* We can either use display flex as shown above or use align-content and margin auto. */
+    align-content: center;
+    margin-bottom: 40px;
+}
+
+.box div {
+    border: 2px solid rgb(96 139 168);
+    border-radius: 5px;
+    background-color: rgb(96 139 168 / 0.2);
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+/* Card layout pushing footer down */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, ifr));
+    grid-gap: 10px;
+    margin-bottom: 40px;
+}
+.card {
+    border: 2px solid rgb(96 139 168);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .content {
+    padding: 10px;
+    flex: 1 1 auto;
+}
+
+.card footer {
+    background-color: rgb(96 139 168 / 0.2);
+    padding: 10px;
+}
+
+/* Media Objects */
+
+img{
+    max-width: 100%;
+    display: block;
+}
+.media {
+    border: 2px solid rgb(96 139 168);
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+/* To flip the media we added class flipped and did a flex-direction */
+.flipped {
+    flex-direction: row-reverse;
+}
+.media .content{
+    flex: 1;
+    padding: 10px;
+}
+
+
+/* Form Control */
+
+.wrapper {
+    display: flex;
+    border: 1px solid rgb(96 139 168);
+}
+.wrapper > * {
+    padding: 10px;
+    border: none;
+    color: #fff;
+  }
+
+.wrapper > input[type="text"] {
+    background-color: rgb(96 139 168 / 0.5);
+    border-right: 1px solid rgb(96 139 168);
+    flex: 1 1 auto;
+}
+.wrapper input[type="submit"] {
+    background-color: rgb(96 139 168 );
+    color: #fff;
+}
+.wrapper label {
+    background-color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

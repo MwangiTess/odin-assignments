@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    border: solid 3px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: solid 4px maroon;
+    text-align: center;
+}
+
+/* Assignment 2 */
+.navbar{
+    height: 100px;
+    background-color: beige;
+    color: blue;
+    padding: 16px;
+    margin-bottom: 40px;
+}
+.navbar .container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar ul li {
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 10px 15px;
+    font-size: large;
+    font-weight: bold;
+
+}
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bold;
+    color: red;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+/* Assignment 3 */
+.navbar1{
+    height: 40px;
+    background-color: beige;
+    color: blue;
+    padding: 16px;
+    margin-bottom: 40px;
+}
+.navbar1 .container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.navbar1 ul{
+    list-style: none;
+    display: flex;
+}
+.navbar1 ul li {
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 5px 8px;
+    font-size: small;
+    font-weight: bold;
+
+}
+.navbar1 .logo{
+    font-size: large;
+    font-weight: bold;
+    color: red;
+    background-color: #fff;
+    padding: 5px 10px;
+    
+}
+
+/* Assignment 4 */
